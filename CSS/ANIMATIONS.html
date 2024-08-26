@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <style>
+       #parent{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            animation: example;
+           animation-duration :3s;
+           position: relative;
+           animation-iteration-count: infinite;
+        
+        }
+        @keyframes example {
+            0%{ background-color: brown; left: 0px; top: 0px;}
+            25%{background-color: yellow; left: 400px; top: 0px;}
+            50%{background-color: black; left: 400px; top:400px;}
+            75%{background-color: skyblue; left: 0px; top: 400px;}
+            100%{background-color: green; left: 0px; top: 0px;}
+            
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div>1</div>
+    </div>
+  
+</body>
