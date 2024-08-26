@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<body>
+    <button type="button" id="demo">submitt</button>
+
+
+
+
+    <script>
+         
+         function first()
+         {
+            alert("first one")
+         }
+         function second()
+         {
+            alert("second one")
+
+         }
+         var vtt=document.getElementById("demo")
+
+        // vtt.onclick=first;
+        // vtt.onclick=second;
+
+         
+       vtt.addEventListener("click",first)
+         vtt.addEventListener("click",second)
+
+    </script>
+</body>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<body>
+<!---<button type="button" onclick="setTimeout(fun,2000)">login</button>--->
+<p>welcome<span id="demo"></span></p>
+<button onclick="stopclock()" >stop</button>
+
+<script>
+
+
+//function fun()
+//{
+//    alert("wake up")
+//}
+   var cleadid;
+
+  function time()
+  {
+    let d=new Date();
+    document.getElementById("demo").innerHTML=d.toLocaleTimeString();
+  }
+  setInterval(time,2000)
+
+
+function stopclock()
+{
+    clearInterval(cleadid)
+}
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>

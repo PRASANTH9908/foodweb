@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<body>
+    <div id="one">
+        <p>i am paragraph one</p>
+        <p id="last">welcome to dom manipulation</p>
+        <img src="ku.jpg" width="300px" height="500px"   id="img">
+    </div>
+
+    <script>
+        var one=document.createElement("h2")
+        console.log(one)
+       
+      one.innerText="head of the page"
+
+       var two=document.getElementById("one")
+     two.appendChild(one)
+     var three=document.getElementById("last")
+    two.insertBefore(one,three)
+   three.replaceChildren(one)
+    three.remove()
+   console.log(two.getAttribute("id"))
+
+    var jr=document.getElementById("img")
+   console.log(jr.getAttribute("src"))
+
+     jr.setAttribute("src","jr.JPG" )                                                   
+
+
+    </script>
+</body>
