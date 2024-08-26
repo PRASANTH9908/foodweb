@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    <header>
+        <h1>book an appointment</h1>
+    </header>
+
+    <main>
+        <section class="appointment-form">
+            <h2>appointment details</h2>
+            <form action="book_appointment.html" method="POST">
+                <label for="doctor">select dector:</label>
+                <select id="doctor" name="doctor" required>
+                    <option value="dr_smith">dr.smit</option>
+                    <option value="dr_jones">dr.jones</option>
+                </select>
+                <label for="date">select date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">select time</label>
+                <input type="time" id="time" name="time" required>
+                <button type="submit">book appointment</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy;2024 hospital management system.all rights reserved
+    </footer>
+</body>
