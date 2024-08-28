@@ -1,0 +1,83 @@
+1.
+let function convert()
+{
+if(first)
+{
+console.log("temperature")
+}if else(second)
+{
+console.log("Celsius")
+}else
+{
+console.log("Fahrenheit")
+}
+convert();
+2
+.function num()
+if(x=0)
+{
+console.log("Zero")
+}if else(x>1 || x<1)
+{
+console.log("positive")
+}else
+{
+console.log("negative")
+}
+3.
+var text="apple ,banana ,carrot"  
+var sub=text.substring(0,4,"dragone");
+console.log(sub);
+4.
+var player="   Prasanth   "
+var game=player.trim();
+console.log("game")
+
+5.
+var person={
+
+           name:"Prasanth",
+            
+            age:21;
+};
+6.
+var week={
+       
+          day:"Monday"
+for(weeks of days)
+{
+console.log(weeks[days])
+}
+
+};
+8.
+
+var i=[0,1,2,3,4,5];
+var j=i.shift();
+console.log(j);
+
+9.
+let animals=["Dog","Cat","Elephant"];
+console.log(animals.Array(isArray));
+
+10.
+var fruits=["orange","avocado"]
+var forest=fruits.UnShift("Grape");
+console.log(forest);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
